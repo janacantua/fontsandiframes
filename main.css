@@ -3,16 +3,71 @@
 
 body {
 	background-color: antiquewhite;
+	margin: 0; 
+	padding: 0;
 }
  
 header { 
-background-color: beige;
-padding: 20px;
+background-color: darkblue;
+padding: 20px; 
+}
+
+div {background:red;
+	width: 100px;
+	height: 20 px;
+	margin: auto;
+	
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	
+	
+	
+}
+
+
+li {
+	display: inline-block;
+	margin: 20px;
 }
 
 section {
 	background-color: burlywood;
+	padding: 20 px;
+	display: flex;
+	flex-direction: row;
 	
 }
-footer {background-color: aquamarine;
+
+/* FEATURES */
+
+.features {
+  background: white;
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
+
+.features figure {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 1000px;
+}
+
+.features figure img {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: gray 0 0 10px;
+  width: 600px;
+}
+
+
+footer {background-color: aquamarine;
+padding: 10px;
+}
+
