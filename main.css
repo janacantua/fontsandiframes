@@ -2,7 +2,11 @@
 /* CSS Document */
 
 body {
-	background-color: #fbf5e7;
+	background-color: #fbf5e7;font-family: meno-banner, serif;
+
+font-weight: 300;
+
+font-style: normal;
 	margin: 0; 
 	padding: 0;
 	
@@ -10,7 +14,7 @@ body {
  
 header { 
 background-color: antiquewhite;
-padding: 10px; 
+padding: 20px; 
 	text-align: center;
 }
 
@@ -23,11 +27,20 @@ header .logo a {
 	height: 120px;
 	text-indent: -9999999999px;
 	width: 300px;
-	top: -30px;
+	top: -10px;
+	padding-bottom: 30px; 
 	
 }
 
-div {background:red;
+.featureheader {
+	padding-left: 70px;
+	margin: 0;
+	background-color: #f8edd3;
+	
+	
+}
+
+div {background-color: clear;
 	width: 100px;
 	height: 20 px;
 	margin: auto;
@@ -36,9 +49,9 @@ div {background:red;
 
 .ul {
 	margin: 0;
-	padding: 0;
+	padding-top: 20px;
 	list-style-type: none;
-	
+	 
 	
 }
 
@@ -46,6 +59,7 @@ div {background:red;
 li {
 	display: inline-block;
 	margin: 20px;
+	
 
 	
 }
@@ -80,8 +94,18 @@ section {
   width: 300px;
 }
 
+.form {
+padding: 10px; 
+	margin: 20px; 
+	
+	
+}
+
 
 footer {background-color: cornsilk;
-padding: 10px;
+padding: 0px;
+	margin: 0;
+	text-align: center;
+
 }
 
