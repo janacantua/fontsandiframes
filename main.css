@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+*{box-sizing: border-box;
+		}
+
+
 
 body {
 	background-color: #fbf5e7;font-family: meno-banner, serif;
@@ -18,6 +22,9 @@ padding: 10px;
 	text-align: center;
 	
 }
+
+
+
 
 header .logo a {
 	background-image: url("images/logo200.png");
@@ -42,20 +49,104 @@ hr {
 	border-color: black;
 }
 
+.header1 {
+	text-align: left;
+	padding-left: 50px;
+	}
 
-.featureheader {
-	padding-left: 70px;
-	margin: 0;
-	background-color: #f8edd3;
-	top: -20px; 
-	
+.container-1 {
+	display: flex;
+	flex-direction: row;
 	
 }
 
-div {background-color: clear;
-	width: 100px;
-	height: 20 px;
-	margin: auto;
+.container-1 div{ 
+	border: 1px; 
+	padding: 10px;
+}
+
+
+.box1 {
+	flex: 1; 
+}
+
+.box2 {
+	flex: 1;
+
+}
+
+.box3 {
+	flex: 1;
+}
+
+.box4 {
+	flex: 1;
+}
+
+
+.container-2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container-2 div{
+	text-align: center; 
+	padding-top: 80px; 
+	padding-bottom: 60px; 
+	
+}
+
+.box5 {
+	flex: 1;
+	flex-basis: 50%;
+}
+
+.box6 {
+	flex: 1;
+	flex-basis: 50%;
+}
+
+
+.container-3 {
+	display: flex;
+	justify-content: center;
+}
+
+
+.container-4 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 80px;
+}
+
+
+
+
+.container-5 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-top: 50px; 
+	padding-left: 100px; 
+	padding-bottom: 50px;
+}
+
+.container-6 {background-color: cornflowerblue;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.footer1{ 
+	flex-direction: column;
+
+}
+
+.footer2 {
+	padding-top: 15px; 
+	padding-right: 20px; 
 	
 }
 
@@ -71,45 +162,14 @@ div {background-color: clear;
 li {
 	display: inline-block;
 	margin: 20px;
-	
-
-	
 }
 
-section {
-	background-color: burlywood;
-	padding: 20 px;
-	display: flex;
-	flex-direction: row;
-	
-}
 
 .video .videotext {
 	
 	margin:auto;
 }
 
-/* FEATURES */
-
-.features {
-  background: #f8edd3;
-  color: gray;
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-}
-
-.features figure {
-  margin: auto;
-  text-align: center;
-  text-transform: uppercase;
-  width: 1000px;
-}
-
-.features figure img {
-  border: 1px solid white;
-  width: 300px;
-}
 
 .form {
 padding: 10px; 
@@ -119,10 +179,4 @@ padding: 10px;
 }
 
 
-footer {background-color: cornsilk;
-padding: 0px;
-	margin: 0;
-	text-align: center;
-
-}
 
