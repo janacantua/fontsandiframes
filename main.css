@@ -3,6 +3,14 @@
 *{box-sizing: border-box;
 }
 
+@media screen and (max-width: 700px) {
+  .row, .header1 {   
+    flex-direction: column;
+  }
+}
+
+
+
 body {
 	background-color: #fbf5e7;font-family: meno-banner, serif;
 
@@ -20,8 +28,6 @@ padding: 10px;
 	text-align: center;
 	
 }
-
-
 
 
 header .logo a {
@@ -54,8 +60,10 @@ hr {
 
 .container-1 {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
-	
+	padding: 10px;
+	flex: 25%
 }
 
 .container-1 div{ 
@@ -84,7 +92,7 @@ hr {
 
 .container-2 {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .container-2 div{
