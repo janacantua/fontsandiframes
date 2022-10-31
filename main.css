@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 780px) {
-  .container-1 {   
+  .container-1, div {   
     flex-direction: column;
   }
 }
@@ -63,12 +63,12 @@ hr {
 	flex-wrap: wrap;
 	flex-direction: row;
 	padding: 10px;
-	flex: 25%
 }
 
 .container-1 div{ 
 	border: 1px; 
 	padding: 10px;
+	flex-wrap: wrap; 
 }
 
 
