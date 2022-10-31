@@ -3,8 +3,8 @@
 *{box-sizing: border-box;
 }
 
-@media screen and (max-width: 780px) {
-  .container-1, div {   
+@media screen and (max-width: 900px) {
+  .container-1, .container-2, .navbar {   
     flex-direction: column;
   }
 }
@@ -30,21 +30,6 @@ padding: 10px;
 }
 
 
-header .logo a {
-	background-image: url("images/logo200.png");
-	background-size: 300px;
-	background-repeat: no-repeat;
-	display: inline-block;
-	position: relative;
-	height: 120px;
-	text-indent: -9999999999px;
-	width: 800px;
-	top: -20px;
-	bottom: -20px; 
-
-	
-}
-
 hr {
   display: block;
 	width: 100%;
@@ -57,6 +42,22 @@ hr {
 	text-align: left;
 	padding-left: 50px;
 	}
+
+.navbar {
+	display: flex; 
+	flex-wrap: wrap;
+	flex-direction: row; 
+	
+	
+}
+
+.menu {
+	justify-content: flex-end;
+}
+
+.logotype {
+	justify-content: flex-start;
+}
 
 .container-1 {
 	display: flex;
