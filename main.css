@@ -14,8 +14,9 @@ font-style: normal;
  
 header { 
 background-color: antiquewhite;
-padding: 20px; 
+padding: 10px; 
 	text-align: center;
+	
 }
 
 header .logo a {
@@ -26,16 +27,27 @@ header .logo a {
 	position: relative;
 	height: 120px;
 	text-indent: -9999999999px;
-	width: 300px;
-	top: -10px;
-	padding-bottom: 30px; 
+	width: 800px;
+	top: -20px;
+	bottom: -20px; 
+
 	
 }
+
+hr {
+  display: block;
+	width: 100%;
+  border-style: thin;
+  border-width: 100%;
+	border-color: black;
+}
+
 
 .featureheader {
 	padding-left: 70px;
 	margin: 0;
 	background-color: #f8edd3;
+	top: -20px; 
 	
 	
 }
@@ -49,7 +61,7 @@ div {background-color: clear;
 
 .ul {
 	margin: 0;
-	padding-top: 20px;
+	padding-top: 10px;
 	list-style-type: none;
 	 
 	
@@ -70,6 +82,11 @@ section {
 	display: flex;
 	flex-direction: row;
 	
+}
+
+.video .videotext {
+	
+	margin:auto;
 }
 
 /* FEATURES */
