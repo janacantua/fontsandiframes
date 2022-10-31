@@ -109,13 +109,13 @@ hr {
 
 .container-3 {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 
 .container-4 {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	text-align: center;
 	padding-top: 80px;
 }
@@ -170,13 +170,6 @@ li {
 	margin:auto;
 }
 
-
-.form {
-padding: 10px; 
-	margin: 20px; 
-	
-	
-}
 
 
 
