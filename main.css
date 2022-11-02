@@ -6,10 +6,19 @@
 @media screen and (max-width: 600px) {
   .container-1, .container-2, .container-6, .container-5, .menu, .header1 {   
     flex-direction: column;
+	  flex-wrap: wrap;
 	  
   }
 }
 
+@media screen and (max-width: 600px) {
+  .container-3, .box6 {   
+    flex-direction: column;
+	  justify-content: center; 
+	width: 100%; 
+	  
+  }
+}
 
 body {
 	background-color: #fbf5e7;font-family: meno-banner, serif;
@@ -72,30 +81,37 @@ hr {
 
 .container-2 {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	font-size: 120%;
 }
 
 .container-2 div{
+	display: flex; 
+	flex-direction: column;
 	text-align: center; 
-	padding-top: 80px; 
-	padding-bottom: 60px; 
+	font-size: 100%; 
+	padding-top: 10px; 
+	padding-bottom: 30px; 
 	
 }
 
 .box5 {
-	flex: 1;
+	flex: 2;
 	flex-basis: 50%;
 }
 
 .box6 {
-	flex: 1;
+	flex: 2;
 	flex-basis: 50%;
+	justify-content: center;
+	
 }
 
 
 .container-3 {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	
 }
 
 
