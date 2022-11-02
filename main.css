@@ -3,24 +3,12 @@
 *{box-sizing: border-box;
 }
 
-
-@media screen and (max-width: 800px) {
-  .container-1, .container-2, .container-6, .container-5 {   
+@media screen and (max-width: 600px) {
+  .container-1, .container-2, .container-6, .container-5, .menu, .header1 {   
     flex-direction: column;
 	  
   }
 }
-
-@media screen and (max-width: 800px) {
-  .container-1, .box1, .box2, .box3, .box4 {   
-    flex-direction: column;
-	  
-  }
-}
-
-
-
-
 
 
 body {
@@ -73,37 +61,11 @@ hr {
 
 .container-1 {
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: row;
-	padding: 10px;
-}
-
-.container-1 div{ 
-	border: 1px; 
-	padding: 10px;
-	flex-wrap: wrap; 
-}
-
-.box1 {
-	flex: 1;
+	flex-wrap: wrap;
+	width: 100%; 
+	justify-content: space-around;
 	
-	flex-wrap: wrap;
-}
-
-.box2 {
-	flex-wrap: wrap;
-	flex: 1; 
-
-}
-
-.box3 {
-     flex-wrap: wrap;
-	flex: 1;
-}
-
-.box4 {
-	flex: 1; 
-	flex-wrap: wrap;
 }
 
 
