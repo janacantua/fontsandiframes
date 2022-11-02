@@ -3,7 +3,7 @@
 *{box-sizing: border-box;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .container-1, .container-2 {   
     flex-direction: column;
 	  
