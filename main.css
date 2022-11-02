@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   .container-1, .box1, .box2, .box3, .box4 {   
     flex-direction: column;
 	  
