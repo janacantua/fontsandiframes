@@ -3,11 +3,14 @@
 *{box-sizing: border-box;
 }
 
-@media screen and (max-width: 900px) {
-  .container-1, .container-2, .navbar {   
+@media screen and (max-width: 500px) {
+  .container-1, .container-2 {   
     flex-direction: column;
+	  
   }
 }
+
+
 
 
 
@@ -72,23 +75,28 @@ hr {
 	flex-wrap: wrap; 
 }
 
-
 .box1 {
-	flex: 1; 
+	flex: 1;
+	
+	flex-wrap: wrap;
 }
 
 .box2 {
-	flex: 1;
+	flex-wrap: wrap;
+	flex: 1; 
 
 }
 
 .box3 {
+     flex-wrap: wrap;
 	flex: 1;
 }
 
 .box4 {
-	flex: 1;
+	flex: 1; 
+	flex-wrap: wrap;
 }
+
 
 
 .container-2 {
