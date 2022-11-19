@@ -22,7 +22,8 @@
 }
 
 body {
-	background-color: #fbf5e7;font-family: meno-banner, serif;
+	background-color: #fbf5e7;
+	font-family: meno-banner, serif;
 
 font-weight: 300;
 
@@ -33,7 +34,7 @@ font-style: normal;
 }
  
 header { 
-background-color: antiquewhite;
+background-color: #F9F5E8;
 padding: 10px; 
 	text-align: center;
 	
@@ -57,8 +58,10 @@ hr {
 	display: flex; 
 	flex-wrap: wrap;
 	flex-direction: row; 
-	
-	
+	justify-content: center;
+	font-family: meno-banner, serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .menu {
@@ -141,7 +144,7 @@ hr {
 	padding-bottom: 50px;
 }
 
-.container-6 {background-color: cornflowerblue;
+.container-6 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -164,6 +167,23 @@ hr {
 	flex-wrap: wrap; 
 	text-align: center; 
 	
+}
+
+
+.button button {
+  background-color: #949D62;
+  padding: 5px 32px; 
+  text-align: center;
+  text-decoration:none;
+  font-size: 15px;
+	border: none; 
+}
+
+.button button {font-family: meno-banner, serif;
+  font-weight: 400;
+  font-style: normal;
+	color: white
+
 }
 
 .ul {
