@@ -446,4 +446,23 @@ input[type=submit]:hover {
 	
 }
 
+.container-14 { 
+	display: flex; 
+	flex-direction: column; 
+	font-size: 20px; 
+	text-align: center; 
+	justify-content: center; 
+	width: 75%; 
+	margin: auto; 
+
+
+}
+
+.herobanner {
+	justify-content: center; 
+	margin: auto; 
+	display: flex; 
+	flex-direction: column; 
+	
+}
 
