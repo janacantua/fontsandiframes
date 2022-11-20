@@ -418,4 +418,18 @@ input[type=submit]:hover {
 	
 }
 
+.box11 {
+	text-align: center; 
+	font-size: 25px; 
+	word-break: break-all;
+	text-overflow: clip; 
+	margin: auto; 
+	justify-content: center; 
+	margin-top: 1px; 
+	margin-bottom: 90px; 
+	text-decoration: none; 
+	text-decoration-color: black; 
+	
+}
+
 
