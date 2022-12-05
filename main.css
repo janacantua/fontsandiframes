@@ -383,8 +383,11 @@ input[type=submit]:hover {
 	justify-content: center; 
 	border-bottom: 1px solid #24231f;
  background-image: url("images/gradient1800px.jpg");
-background-repeat: repeat; 
+background-repeat:no-repeat; 
+	text-align: center;
+	
 }
+
 
 
 .row {
@@ -395,6 +398,7 @@ background-repeat: repeat;
 	margin-left: 400px; 
 	margin-right: 90px; 
 	align-content: center; 
+	text-align: center; 
 
 
 }
@@ -402,9 +406,10 @@ background-repeat: repeat;
 .col-25 {
   display: flex; 
 	flex-direction: column; 
-  width: 40%;
+  width: 55%;
   margin-top: 6px;
 	justify-content: center; 
+	text-align: center; 
 }
 
 .col-75 {
