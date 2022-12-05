@@ -41,13 +41,7 @@ padding: 10px;
 }
 
 
-hr {
-  display: block;
-	width: 100%;
-  border-style: thin;
-  border-width: 100%;
-	border-color: black;
-}
+
 
 .header1 {
 	text-align: center;
@@ -351,13 +345,15 @@ input[type=submit]:hover {
 
 .form-1 {
   border-radius: 5px;
-  background-color: #F9F5E8;
   padding: 20px;
 	display: flex; 
 	flex-direction: column;  
 	justify-content: center; 
 	border-bottom: 1px solid #24231f;
+ background-image: url("images/gradient1800px.jpg");
+background-repeat: repeat; 
 }
+
 
 .row {
 	display: flex; 
