@@ -279,13 +279,14 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.form {
+.form-1 {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #F9F5E8;
   padding: 20px;
 	display: flex; 
 	flex-direction: column;  
 	justify-content: center; 
+	border-bottom: 1px solid #24231f;
 }
 
 .row {
