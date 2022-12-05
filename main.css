@@ -193,6 +193,76 @@ a.two:hover {color:#000000;}
 	
 }
 
+.container-9 {
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between; 
+	padding: 20px; 
+}
+
+.container-10{
+	display: flex;
+	flex-direction: column; 
+	justify-content: flex-end; 
+	flex-flow: row wrap;
+	
+}
+
+.container-10 footer3 {
+	display: flex;
+	flex-direction: row; 
+	flex-flow: row-wrap;
+}
+
+.container-12 {
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	padding-left: 50px; 
+	justify-content: space-between; 
+	padding-top: 40px; 
+	padding-bottom: 40px;
+	padding-right: 10px; 
+	
+	 
+}
+
+.container-13 {
+border-bottom: 1px solid #24231f;	
+	}
+
+.container-13 {
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: nowrap; 
+	justify-content: space-between; 
+	width: 100%;
+	margin-right: 30px;
+	margin-left: 10px; 
+	padding-bottom: 200px;  
+	border-bottom: 1px solid #24231f;
+
+}
+
+.container-14 { 
+	display: flex; 
+	flex-direction: column; 
+	font-size: 20px; 
+	text-align: center; 
+	justify-content: center;
+	padding: 10px; 
+	width: 100%; 
+	margin: auto; 
+	border-bottom: 1px solid #24231f;
+
+
+}
+
+.aboutus {
+	border-bottom: 1px solid #24231f;
+	width: 100%; 
+}
+
 .footer1{ 
 	display: flex; 
 	flex-direction: row;
@@ -328,43 +398,6 @@ input[type=submit]:hover {
 	justify-content: center; 
 }
 
-.container-9 {
-	display: flex; 
-	flex-direction: row; 
-	justify-content: space-between; 
-	padding: 20px; 
-}
-
-.container-10{
-	display: flex;
-	flex-direction: column; 
-	justify-content: flex-end; 
-	flex-flow: row wrap;
-	
-}
-
-.container-10 footer3 {
-	display: flex;
-	flex-direction: row; 
-	flex-flow: row-wrap;
-}
-
-.container-12 {
-	display: flex; 
-	flex-direction: row; 
-	flex-wrap: wrap; 
-	padding-left: 50px; 
-	justify-content: space-between; 
-	padding-top: 40px; 
-	padding-bottom: 40px;
-	padding-right: 10px; 
-	
-	 
-}
-
-.container-13 {
-border-bottom: 1px solid #24231f;	
-	}
 
 .heroimage {
 	padding-left: 5px;
@@ -401,18 +434,6 @@ border-bottom: 1px solid #24231f;
 	margin-bottom: 90px; 
 }
 
-.container-13 {
-	display: flex; 
-	flex-direction: row; 
-	flex-wrap: nowrap; 
-	justify-content: space-between; 
-	width: 100%;
-	margin-right: 30px;
-	margin-left: 10px; 
-	padding-bottom: 200px;  
-	border-bottom: 1px solid #24231f;
-
-}
 
 .featureimage {
 	display: flex; 
@@ -445,17 +466,6 @@ border-bottom: 1px solid #24231f;
 	
 }
 
-.container-14 { 
-	display: flex; 
-	flex-direction: column; 
-	font-size: 20px; 
-	text-align: center; 
-	justify-content: center; 
-	width: 75%; 
-	margin: auto; 
-
-
-}
 
 .herobanner {
 	justify-content: center; 
