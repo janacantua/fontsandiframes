@@ -71,24 +71,13 @@ hr {
   color: black;
 }
 
-/* visited link */
-a:visited {
-  color: black;
-	text-decoration: none; 
-}
+a.one:link {color:#000000;}
+a.one:visited {color: #000000;}
+a.one:hover {color:#000000;}
 
-/* mouse over link */
-a:hover {
-	text-decoration: none; 
-  color: black;
-}
-
-/* selected link */
-a:active {
-	text-decoration: none; 
-  color: black;
-	}
-
+a.two:link {color:#000000;}
+a.two:visited {color: #000000;}
+a.two:hover {color:#000000;}
 
 .menu {
 	justify-content: flex-end;
